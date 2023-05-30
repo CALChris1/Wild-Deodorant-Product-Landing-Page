@@ -182,8 +182,8 @@ h1 {
 }
 
 .transparent {
-  width: 50vw;
-  height: 50vh;
+  width: 45vw;
+  height: 45vh;
 }
 
 h2 {
@@ -243,12 +243,12 @@ span {
 .picture-2 {
   width: 50%;
   display: flex;
-  margin-top: 5vh;
+  margin-top: 6vh;
 }
 
 .hand-holding {
-  width: 40vw;
-  height: 40vh;
+  width: 41vw;
+  height: 45vh;
 }
 
 .works {
