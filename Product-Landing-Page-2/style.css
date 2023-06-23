@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -31,15 +32,44 @@ body {
   padding-right: 3vw;
   padding-top: 3vh;
 }
+.menu:hover {
+  color: green;
+}
+
+.menu:active {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .FAQs {
   padding-right: 3vw;
   padding-top: 3vh;
 }
 
+.FAQs:hover {
+  color: green;
+}
+
+.FAQs:active {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .refills {
   padding-right: 3vw;
   padding-top: 3vh;
+}
+
+.refills:hover {
+  color: green;
+}
+
+.refills:active {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .friend {
@@ -48,8 +78,18 @@ body {
   font-size: large;
 }
 
+.friend:hover {
+  color: green;
+}
+
+.friend:active {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .wild {
-  padding-right: 25vw;
+  padding-right: 22vw;
   font-size: 60px;
   padding-top: 5px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -60,24 +100,39 @@ body {
   padding-top: 3vh;
 }
 
-/* Gotta add the border around it */
-.shopnow-1 {
-  color: white;
-  padding-top: 3vh;
+.login:hover {
+  color: green;
 }
 
-#link:hover {
-  color: blue;
-}
-
-#link:active {
-  color: blue;
+.login:active {
+  color: green;
   font-weight: bold;
   text-decoration: underline;
 }
 
+/* Gotta add the border around it */
+.shopnow-1 {
+  margin-top: 1.5vh;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  height: 35px;
+  padding-top: 1.5vh;
+}
+
+.shopnow-1:hover {
+  color: blue;
+}
+
+.shopnow-1:active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .description {
-  height: 45vh;
+  height: 48vh;
   background-color: #ff8468;
   display: flex;
   flex-direction: row;
@@ -112,17 +167,23 @@ h1 {
 }
 
 .shopnow-2:hover {
-  font-weight: bold;
+  color: blue;
 }
 
 .shopnow-2:active {
   text-decoration: underline;
+  font-weight: bold;
 }
 .picture-1 {
   width: 50%;
   display: flex;
   align-items: end;
   justify-content: flex-end;
+}
+
+.transparent {
+  width: 45vw;
+  height: 45vh;
 }
 
 h2 {
@@ -164,6 +225,11 @@ h3 {
   padding-left: 6vw;
 }
 
+.small-logo {
+  width: 10vw;
+  height: 10vh;
+}
+
 span {
   padding-top: 10vh;
 }
@@ -177,9 +243,16 @@ span {
 .picture-2 {
   width: 50%;
   display: flex;
+  margin-top: 6vh;
+}
+
+.hand-holding {
+  width: 41vw;
+  height: 45vh;
 }
 
 .works {
+  width: 50%;
   padding-left: 3vw;
   padding-right: 5vw;
   padding-top: 0px;
@@ -213,7 +286,7 @@ h4 {
 }
 
 .waste-down {
-  width: 50%;
+  width: 40%;
   padding-left: 3.5vw;
   padding-right: 3.5vw;
 }
@@ -239,6 +312,7 @@ p {
   width: 100px;
   padding: 20px;
   text-align: center;
+  padding-left: 2vw;
   font-size: large;
   color: white;
 }
@@ -259,4 +333,9 @@ p {
   align-self: center;
 }
 
-/* Problmes with code 1) Can't seem to  match the background color with first image. 2)Unable to properly create a border around the first shop now. Top right corner of the page. 3) Too much space between the how it works section.*/
+.armpits-up {
+  height: 35vh;
+  width: 55vw;
+  padding-left: 2vw;
+}
+/* Fix the last section of the code */
